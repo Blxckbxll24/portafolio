@@ -6,24 +6,17 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const experiences = [
     {
         type: "work",
-        title: "Software Engineer",
-        organization: "Proyectos Integrales y Startups",
-        period: "2023 - Presente",
-        description: "Desarrollo y mantenimiento de aplicaciones web escalables. Implementación de nuevas funcionalidades, integración de pasarelas de pago y optimización de rendimiento.",
-    },
-    {
-        type: "work",
-        title: "Desarrollador Web Freelance",
+        title: "Ingeniero en Desarrollo y Gestión de Software (Freelance)",
         organization: "Proyectos Independientes",
-        period: "2021 - 2023",
-        description: "Creación de landing pages, plataformas e-commerce interactivas y sistemas administrativos personalizados para pequeñas y medianas empresas enfocados en experiencia de usuario.",
+        period: "2024 - 2025",
+        description: "Desarrollo de landing pages, aplicaciones web interactivas y sistemas personalizados. Gestión completa del ciclo de vida del software enfocado en resolver necesidades de clientes.",
     },
     {
         type: "education",
-        title: "Formación en Programación y Desarrollo Web",
-        organization: "Múltiples Instituciones y Bootcamps",
-        period: "2020 - 2022",
-        description: "Especialización intensiva en el ecosistema JavaScript, Node.js, React, arquitecturas frontend/backend, diseño de bases de datos y metodologías ágiles SDLC.",
+        title: "Ingeniería en Desarrollo y Gestión de Software",
+        organization: "Formación Universitaria",
+        period: "2022 - 2026",
+        description: "Especialización integral en ingeniería de software, abarcando desarrollo frontend y backend, arquitectura de sistemas, bases de datos y metodologías ágiles SDLC.",
     },
 ];
 

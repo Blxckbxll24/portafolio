@@ -34,7 +34,7 @@ export function About() {
                 >
                     <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Sobre Mí</h2>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                        Soy un desarrollador apasionado por la tecnología y la resolución de problemas complejos.
+                        Soy ingeniero en desarrollo y gestión de software, apasionado por la tecnología y la resolución de problemas complejos.
                         Con experiencia en todo el stack de desarrollo, me especializo en construir aplicaciones web
                         que no solo funcionan perfectamente, sino que también ofrecen una experiencia de usuario inolvidable.
                     </p>
