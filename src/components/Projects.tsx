@@ -1,18 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
-import { Button } from "./ui/button";
 
 const projects = [
     {
         title: "Zentilia",
         description: "E-commerce robusto especializado en venta de equipos biomédicos. Incluye carrito de compras, gestión de usuarios y panel administrativo optimizado.",
         tags: ["Laravel", "Breeze", "Tailwind CSS"],
-        demo: "#",
-        repo: "#",
         color: "from-blue-500/20 to-cyan-500/20",
         image: "/zentilia.png",
     },
@@ -20,8 +15,6 @@ const projects = [
         title: "Sistema de Predicción de Ingresos",
         description: "Herramienta analítica avanzada para proyectar ingresos futuros, integrando visualización de datos y modelos predictivos.",
         tags: ["Vue.js", "Tailwind CSS", "Python API"],
-        demo: "#",
-        repo: "#",
         color: "from-purple-500/20 to-pink-500/20",
         image: "/PHOTO-2025-07-28-17-07-02.jpg",
     },
@@ -29,8 +22,6 @@ const projects = [
         title: "Blog de Recetas",
         description: "Plataforma interactiva para compartir y descubrir recetas culinarias, con un backend potente y una interfaz de usuario fluida.",
         tags: ["Vue.js", "Tailwind CSS", ".NET API"],
-        demo: "#",
-        repo: "#",
         color: "from-green-500/20 to-emerald-500/20",
         image: "/PHOTO-2025-03-05-14-34-12.jpg",
         
@@ -84,7 +75,7 @@ export function Projects() {
                                     {project.description}
                                 </p>
 
-                                <div className="flex flex-wrap gap-2 mb-6">
+                                <div className="flex flex-wrap gap-2 mt-auto">
                                     {project.tags.map((tag) => (
                                         <span
                                             key={tag}
@@ -93,21 +84,6 @@ export function Projects() {
                                             {tag}
                                         </span>
                                     ))}
-                                </div>
-
-                                <div className="flex items-center gap-4 mt-auto">
-                                    <Button asChild size="sm" variant="outline" className="w-full">
-                                        <Link href={project.repo} target="_blank">
-                                            <Github className="mr-2 h-4 w-4" />
-                                            Código
-                                        </Link>
-                                    </Button>
-                                    <Button asChild size="sm" className="w-full">
-                                        <Link href={project.demo} target="_blank">
-                                            <ExternalLink className="mr-2 h-4 w-4" />
-                                            Demo
-                                        </Link>
-                                    </Button>
                                 </div>
                             </div>
                         </motion.div>
